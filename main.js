@@ -4,7 +4,12 @@ let largeMenuIcon = document.getElementById('menu-large-icon');
 let mobileMenu = document.getElementById('mobileMenu');
 
 /*JQuery */
-$(mobileMenu).hide();
+// if ($(window).width() < 980) {
+//   $(mobileMenu).hide();
+// }
+if ($(window).width() >= 640) {
+  $('.fa-chevron-right').addClass('fa-2x');
+}
 
 menuButton.addEventListener('click', (event) => {
   if ($(mobileMenu).hasClass('opened')) {
