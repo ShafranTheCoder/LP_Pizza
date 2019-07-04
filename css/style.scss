@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background-image: url("/img/320/pizza_header_320.png");
+  background-image: url("./img/320/pizza_header_320.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,15 +66,15 @@ body {
 }
 
 .category-pizza {
-  background-image: url("/img/320/pizza_320.png");
+  background-image: url("./img/320/pizza_320.png");
 }
 
 .category-salad {
-  background-image: url("/img/320/salads_320.png");
+  background-image: url("./img/320/salads_320.png");
 }
 
 .category-dessert {
-  background-image: url("/img/320/desserts_320.png");
+  background-image: url("./img/320/desserts_320.png");
 }
 
 .category-title {
@@ -91,11 +91,12 @@ body {
 }
 
 .pizza-category {
-  background-image: url("/img/320/pizza_320.png");
+  background-image: url("./img/320/pizza_320.png");
 }
 
 /*Price*/
-.price {}
+.price {
+}
 
 .price-title-wrapper {
   margin-top: 20px;
@@ -289,28 +290,28 @@ body {
   }
 
   .header {
-    background-image: url("/img/320/pizza_header_320.png");
+    background-image: url("./img/320/pizza_header_320.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-pizza {
-    background-image: url("/img/320/pizza_320.png");
+    background-image: url("./img/320/pizza_320.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-salad {
-    background-image: url("/img/320/salads_320.png");
+    background-image: url("./img/320/salads_320.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-dessert {
-    background-image: url("/img/320/desserts_320.png");
+    background-image: url("./img/320/desserts_320.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -380,7 +381,7 @@ body {
   }
 
   .header {
-    background-image: url("/img/640/header_640.png");
+    background-image: url("./img/640/header_640.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -388,21 +389,21 @@ body {
   }
 
   .category-pizza {
-    background-image: url("/img/640/pizza_640.png");
+    background-image: url("./img/640/pizza_640.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-salad {
-    background-image: url("/img/640/salad_640.png");
+    background-image: url("./img/640/salad_640.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-dessert {
-    background-image: url("/img/640/dessert_640.png");
+    background-image: url("./img/640/dessert_640.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -590,7 +591,7 @@ body {
   }
 
   .header {
-    background-image: url("/img/980/header_980.png");
+    background-image: url("./img/980/header_980.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -598,21 +599,21 @@ body {
   }
 
   .category-pizza {
-    background-image: url("/img/980/pizza_980.png");
+    background-image: url("./img/980/pizza_980.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-salad {
-    background-image: url("/img/980/salad_980.png");
+    background-image: url("./img/980/salad_980.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-dessert {
-    background-image: url("/img/980/dessert_980.png");
+    background-image: url("./img/980/dessert_980.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -639,7 +640,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .header {
-    background-image: url("/img/1200/header_1200.png");
+    background-image: url("./img/1200/header_1200.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -647,21 +648,21 @@ body {
   }
 
   .category-pizza {
-    background-image: url("/img/1200/pizza_1200.png");
+    background-image: url("./img/1200/pizza_1200.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-salad {
-    background-image: url("/img/1200/salad_1200.png");
+    background-image: url("./img/1200/salad_1200.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .category-dessert {
-    background-image: url("/img/1200/dessert_1200.png");
+    background-image: url("./img/1200/dessert_1200.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
